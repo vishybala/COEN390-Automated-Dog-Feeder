@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "911368712736",
+    "project_id": "dog-feeder-30adc",
+    "storage_bucket": "dog-feeder-30adc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911368712736:android:fc73afa947f99f1269c245",
+        "android_client_info": {
+          "package_name": "com.dogfeeder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911368712736-d87le2qigcj2bmaan431i2t04i5lo8c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIQnT3UZszY1idoifI6gQlqt0IpFOYHSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911368712736-d87le2qigcj2bmaan431i2t04i5lo8c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

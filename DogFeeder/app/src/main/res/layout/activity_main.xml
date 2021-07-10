@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lastFedTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Fed: "
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            />
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/feedingHistoryBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feeding History"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/edittext_bg"
+            />
+
+        <Button
+            android:id="@+id/giveFoodBtn"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Give Food"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
