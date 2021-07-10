@@ -48,5 +48,9 @@ public class SplashActivity extends AppCompatActivity {
                     }
                 });
 
+
+        private class Rudy
+        
+
     }
 }
