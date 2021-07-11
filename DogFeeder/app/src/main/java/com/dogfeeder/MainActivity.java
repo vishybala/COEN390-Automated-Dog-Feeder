@@ -96,6 +96,27 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.home_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.item1:
+                goToSetUpActivity2();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void goToSetUpActivity2() {
+        Intent intent2 = new Intent(MainAcitivity.this, SetUpActivity2.class);
+        startActivity(intent2);
+    }
+
     private void initViews() {
         lastFed = findViewById(R.id.lastFedTxt);
     }
