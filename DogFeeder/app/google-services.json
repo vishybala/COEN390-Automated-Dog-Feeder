@@ -1,33 +1,63 @@
 {
   "project_info": {
-    "project_number": "911368712736",
-    "project_id": "dog-feeder-30adc",
-    "storage_bucket": "dog-feeder-30adc.appspot.com"
+    "project_number": "101258726159",
+    "firebase_url": "https://auto-doggo-feeder-default-rtdb.firebaseio.com",
+    "project_id": "auto-doggo-feeder",
+    "storage_bucket": "auto-doggo-feeder.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:911368712736:android:fc73afa947f99f1269c245",
+        "mobilesdk_app_id": "1:101258726159:android:7d3cfd419150b968fbcc7a",
         "android_client_info": {
           "package_name": "com.dogfeeder"
         }
       },
       "oauth_client": [
         {
-          "client_id": "911368712736-d87le2qigcj2bmaan431i2t04i5lo8c9.apps.googleusercontent.com",
+          "client_id": "101258726159-2qick4rdv4mqvncrr8b2pslgdqdr5eor.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAIQnT3UZszY1idoifI6gQlqt0IpFOYHSQ"
+          "current_key": "AIzaSyBnJmRxcnOr1HdRsZ9mslCelDJxOB3Jgko"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "911368712736-d87le2qigcj2bmaan431i2t04i5lo8c9.apps.googleusercontent.com",
+              "client_id": "101258726159-2qick4rdv4mqvncrr8b2pslgdqdr5eor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101258726159:android:a4e8c760ec00f42efbcc7a",
+        "android_client_info": {
+          "package_name": "com.example.dbtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101258726159-2qick4rdv4mqvncrr8b2pslgdqdr5eor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnJmRxcnOr1HdRsZ9mslCelDJxOB3Jgko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101258726159-2qick4rdv4mqvncrr8b2pslgdqdr5eor.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
