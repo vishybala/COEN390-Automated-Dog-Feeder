@@ -20,6 +20,31 @@ public class LogRegHandler {
 
     private String username;
     private String password;
+
+    public String getDogBreed() {
+        return dogBreed;
+    }
+
+    public void setDogBreed(String dogBreed) {
+        this.dogBreed = dogBreed;
+    }
+
+    public Double getDogWeight() {
+        return dogWeight;
+    }
+
+    public void setDogWeight(Double dogWeight) {
+        this.dogWeight = dogWeight;
+    }
+
+    public Integer getDogAge() {
+        return dogAge;
+    }
+
+    public void setDogAge(Integer dogAge) {
+        this.dogAge = dogAge;
+    }
+
     private String dogBreed;
     private Double dogWeight;
     private Integer dogAge;
