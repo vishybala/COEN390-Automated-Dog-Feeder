@@ -33,7 +33,7 @@ public class DatabaseHelper {
         return mealList;
     }
 
-    public boolean uploadFeedTime(String username, String datetime){
-        FirebaseDatabase.getInstance.getReference.child("Meal History").child(username).push().setValueAsync(datetime);
+    public void uploadFeedTime(String username, String datetime){
+        FirebaseDatabase.getInstance().getReference().child("Meal History").child(username).push().setValue(datetime);
     }
 }
